@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino Terça</title>
+
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles/impressora.css" media="print">
+    <link rel="stylesheet" href="../app.js">
+    <link rel="icon" type="imagex/png" href="../alter.ico">
+
+</head>
+
+<header class="header-btn">
+    <button class="botao" onclick="location.href = '../login.html'">Sair</button>
+    <button class="botao" onclick="print()">Imprimir </button>
+    <a href="../index.html"><button class="botao_voltar">Voltar ao Menu</button></a>
+</header>
+
+
+<body>
+
+    <div class="title">
+        <h3 class="titulo">Treino Terça</h3>
+        <div class="underline"></div>
+    </div>
+
+<!-- Slider Terça 1 -->
+<div class="swiper" id="ter">
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="card" id="segunda">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 1 - Puxada pulley</h3>
+                    <p class="item-text">1) Na máquina pulley, segure a barra com uma pegada aberta, em uma distância maior que a largura dos ombros. 2) Com os braços estendidos, leve o tronco para trás formando um ângulo em torno de 30º, ao mesmo tempo em que cria uma leve curvatura na região lombar e estufe o peito. 3) Exale o ar e traga a barra para baixo. Ao atingir a posição de contração total, comprima os músculos das costas. 4) Segure a posição contraída por um segundo, comprimindo as escápulas. 5) Levante a barra lentamente, inalando o ar, até que os braços estejam totalmente estendidos.</p>
+                    </div>
+                <!-- 2 coluna -->
+                <img src="../images/costas-puxada-aberta-1.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">4x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 1 - Barra fixa</h3>
+                    <p class="item-text">1) Primeiro, segure a barra fixa com uma pegada larga. 2) Então, erga o corpo, flexione o joelho e aproxime da barra a articulação dos ombros, o objetivo é levar o queixo a uma altura maior do que as mãos. 3) Em seguida, faça uma pausa na parte alta do movimento e retorne lentamente à posição original.</p>
+                    </div>
+                <!-- 2 coluna -->
+                <img src="../images/costas-barra-fixa.gif" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 1 - Barra fixa pegada fechada</h3>
+                    <p class="item-text">1) Primeiro, segure a barra, com as mãos próximas, se pendure nela e cruze os pés. 2) Aperte as escápulas dos ombros para baixo e para trás, dobre os cotovelos e puxe a parte de cima do peito em direção à barra. 3) Em seguida, faça uma pausa e retorne lentamente à posição original.</p>
+                </div>
+                <!-- 2 coluna -->
+                <img src="../images/costas-barra-fixa-fechada-chinup.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+   
+  </div>
+
+
+<!-- Slider Terça 2 -->
+<div class="swiper" id="ter">
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 2 - Remada sentado</h3>
+                    <p class="item-text">1) Sente-se na máquina de cabos e prenda o triângulo. 2) Estique os braços para pegar o acessório, puxando-o em direção à parte inferior do peitoral. 3) Volte com o acessório à posição inicial.</p>
+                    </div>
+                <!-- 2 coluna -->
+                <img src="../images/remada-sentado.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">4x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 2 - Remada serrote</h3>
+                    <p class="item-text">1) Para começar, coloque um halter em cada lado de um banco reto. Em seguida, coloque as pernas em cima do banco, encostando o joelho e incline tronco para a frente. 2) Depois, coloque uma das mãos no banco para obter suporte e pegue um halter com a outra mão. 3) Então, leve o peso para cima, até a lateral do peito. Flexione o cotovelo e mantenha o tronco imóvel. 4) Depois, desça o halter e volte à posição inicial.</p>
+                    </div>
+                <!-- 2 coluna -->
+                <img src="../images/costas-remada-banco.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 2 - Remada cavalinho</h3>
+                    <p class="item-text">1) Para começar, coloque uma carga adequada para você na barra.
+                        2) Então, se posicione no equipamento, colocando uma perna de cada lado da barra. Abaixe os quadris e segure a alça das barras com as palmas das mãos para fora. 3) Em seguida, retire o peso do chão e leve a barra até a altura dos braços. O movimento deve ser realizado por meio da flexão dos cotovelos, com as escápulas contraídas e puxando o peso até o peito. 4) Depois, faça uma pausa rápida na parte alta do exercício e, então, retorne à posição original.</p>
+                </div>
+                <!-- 2 coluna -->
+                <img src="../images/costas-remada-em-pe-com-barra-T.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+   
+  </div>
+
+
+<!-- Slider Terça 3  -->
+ <div class="swiper" id="ter">
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 3 - Remada invertida</h3>
+                    <p class="item-text">1) Para começar, fique em pé, com as pernas afastadas e os joelhos flexionados. 2) Segure a barra com as mãos paralelas aos ombros e com as palmas viradas para a frente. 3) Deixe a coluna reta e encaixe os ombros, incline o tronco para a frente, jogando o quadril para trás. 4) Mantenha os cotovelos estendidos até que a barra fique na altura das coxas, e contraia os bíceps. 5) Puxe a barra até a cintura, ao mesmo tempo em que flexiona os cotovelos. 6) Segure a contração por um momento e retorne à posição inicial.</p>
+                    </div>
+                <!-- 2 coluna -->
+                <img src="../images/remada-curvada.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 3 - Remada pronada</h3>
+                    <p class="item-text">1) Pegue a barra com os pesos e mantenha as mãos paralelas aos ombros.
+                        2) Em seguida, incline o tronco para frente, formando um ângulo de 45º em relação ao chão.
+                        3) Puxe a barra para cima, no sentido vertical, até que ela toque a parte inferior do peito. 4) Então, abaixe a barra até a posição em que os braços fiquem estendidos.</p>
+                </div>
+                <!-- 2 coluna -->
+                <img src="../images/costas-remada-curvada-protonada.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 3 - Remada invertida no Smith</h3>
+                    <p class="item-text">1) Fique em pé na frente da barra do Smith e posicione ela na altura do abdome. 2) Em seguida, deslize seu corpo por baixo da barra de maneira que suas pernas e braços fiquem esticados. 3) Depois, dobre os braços levando o peitoral de encontro à barra.
+                    4) Então, volte lentamente à posição inicial e repita o movimento.</p>
+                </div>
+                <!-- 2 coluna -->
+                <img src="../images/remada-invertida-usando-o-smith-machine.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+   
+  </div>
+
+
+<!-- Slider Terça 4  -->
+<div class="swiper" id="ter">
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 4 - Pullover com halter</h3>
+                    <p class="item-text">1) Deite-se em um banco reto e segure um halter acima do peito, com as palmas das mãos apontando para fora, e segurando um lado do halter. 2) Então, com o core firme, desça o halter e leve-o atrás da cabeça, ligeiramente acima da altura do banco, mantendo os braços esticados. 3) Em seguida, deixe os braços retos, contraia o latíssimo do dorso e leve o peso de volta à sua posição inicial. </p>
+                    </div>
+                <!-- 2 coluna -->
+                <img src="../images/pullover-halter.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 4 - Pullover com a barra</h3>
+                    <p class="item-text">1) Sente-se em um banco reto e posicione a barra sobre as suas coxas;
+                        2) Deite-se e traga a barra até a altura do peito. 3) Estique os braços levantando a barra, então, com o core firme, desça a barra e leve-a atrás da cabeça, ligeiramente acima da altura do banco, mantendo os braços levemente dobrados. 4) Em seguida, contraia o latíssimo do dorso e leve a barra de volta à sua posição inicial.</p>
+                </div>
+                <!-- 2 coluna -->
+                <img src="../images/pullover-com-a-barra.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+   
+  </div>
+
+
+
+<!-- Slider Terça 5  -->
+<div class="swiper" id="ter">
+
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 5 - Puxada com triângulo</h3>
+                    <p class="item-text">1) Sente-se na máquina com os quadris encaixados no acolchoado do equipamento; 2) Em seguida, pegue o triângulo com as mãos, estufe o peito, faça um pequena curva na região da lombar e leve a carga até o peito, inclinando-se ligeira e suavemente enquanto a puxa. 3) Na parte baixa do movimento, as escápulas devem estar comprimidas.
+                    4) Depois, volte ao posicionamento original, levantando a carga lentamente. </p>
+                    </div>
+                <!-- 2 coluna -->
+                <img src="../images/costas-puxada-para-frente-no-pulley-com-triangulo.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-slide">
+        <div class="card">
+            <!--1 linha -->
+            <div class="card__descricao">
+                <!-- 1 coluna -->
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Exercício 5 - Puxada invertida</h3>
+                    <p class="item-text">1) Fique em pé no meio da máquina de cabos, e ajuste os pesos com a mesma quantidade de placas. 2) Em seguida segure o pegador de forma invertida, com os antebraços cruzados à frente do rosto. 3) Então, estique os braços, levando-os para trás, mas sem inclinar sua coluna ou tirar os pés do lugar. 4) Volte à posição inicial, e repita o movimento.</p>
+                </div>
+                <!-- 2 coluna -->
+                <img src="../images/Puxada-maquina-de-cabos.webp" class="photo">
+            </div>
+            <!-- 2 linha -->
+            <div class="card__botoes">
+                <!-- 1 coluna -->
+                <ul class="botoes">
+                    <li class="botoes__item">60s</li>
+                    <li class="botoes__item">5x12</li>
+                </u1>
+                <!-- 2 coluna -->
+                <a href="a" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+      </div>
+
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+   
+  </div>
+
+
+
+
+  <footer>
+    <p class="footer">Copyright @2023 | All Rights Reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 100,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

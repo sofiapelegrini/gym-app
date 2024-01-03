@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+
+.header-btn{
+    display: none;
+}
+
+.swiper-pagination, .swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+

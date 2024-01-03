@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagex/png" href="alter.ico">
+    <title>Login Gym App</title>
+    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap');
+        *{
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+            
+        }
+
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: hsl(205, 86%, 17%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            width: 80%;
+            height: 80vh;
+            display: flex;
+            box-shadow: 5px 5px 10px rgba(0,0,0.212);
+
+        }
+
+        .form-img{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(182, 159, 159);
+            padding: 1rem;
+        }
+
+        .form-img img{
+            width: 31rem;
+        }
+ 
+        .form{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #ffffff;
+            padding: 3rem;    
+        }
+
+        input{
+            display: block;
+            margin: 10px auto;
+            width: 250px;
+            height: 30px;
+        }
+
+        form input[type=submit]{
+            cursor:pointer;
+            background: hsl(205, 86%, 17%);
+            color:#ffffff;
+            border:0;
+            border-radius: 10px;
+        }
+
+    @media screen and (max-width:1330px){
+        .form-img{
+            display: none;
+        }
+
+        .container{
+            width: 50%;
+        }
+
+        .form{
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width:650px){
+        .form-img{
+            display: none;
+        }
+
+        .container{
+            width: 90%;
+            height: auto;
+        }
+
+        .form{
+            width: 100%;
+        }
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-img">
+            <img src="undraw_personal_trainer_re_cnua.svg" alt="imagem inicial">
+        </div>
+
+        <div class="form">
+            <form>
+                <h3>Gym App Login</h3>
+                <input type="text" placeholder="Login" id="login">
+                <input type="password" placeholder="Senha" id="senha">
+                <input type="submit" id=btnLogar onclick="logar(); return false">
+            </form>
+        </div>
+
+    </div>
+
+    <script src="valida.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilha de treinos</title>
+ 
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.js">
+    <link rel="icon" type="imagex/png" href="alter.ico">
+</head>
+
+<header class="header-btn">
+    <button class="botao" onclick="location.href = 'login.html'">Sair</button>
+</header>
+
+<body>
+    <section class="menu">       
+        <div class="title">
+            <h2 class="titulo">Treino Semanal</h2>
+            <div class="underline"></div>
+        </div>
+
+    <div>   
+        <h4 class="desc">Para iniciar o seu treino, selecione a modalidade e o dia da semana:</h4>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <h4 class="title_exer">Nível 1 Fácil</h4>
+            <div id="minhaDiv3" class="btn-filter">
+                
+                <a href="treinos/seg.html"><button>Segunda</button></a>
+                <a href="treinos/ter.html"><button>Terça</button></a>
+                <a href="treinos/qua.html"><button>Quarta</button></a>
+                <a href="treinos/quin.html"><button>Quinta</button></a>
+                <a href="treinos/sex.html"><button>Sexta</button></a>
+                <a href="treinos/sab.html"><button>Sábado</button></a>
+                <a href="treinos/dom.html"><button>Domingo</button></a>   
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <h4 class="title_exer">Nível 2 Médio</h4>
+            <div id="minhaDiv5" class="btn-filter">
+                
+                <a href="treinos/seg5.html"><button>Segunda</button></a>
+                <a href="treinos/ter5.html"><button>Terça</button></a>
+                <a href="treinos/qua5.html"><button>Quarta</button></a>
+                <a href="treinos/quin5.html"><button>Quinta</button></a>
+                <a href="treinos/sex5.html"><button>Sexta</button></a>
+                <a href="treinos/sab5.html"><button>Sábado</button></a>
+                <a href="treinos/dom5.html"><button>Domingo</button></a>   
+            </div>
+        </div>
+    </div>
+
+    
+
+    </section>
+    <script src="app.js"></script>
+    <footer>
+        <p class="footer">Copyright @2023 | All Rights Reserved</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 100,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+    </script>
+</body>
+
+
+</html>
