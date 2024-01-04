@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    font-family: var(--ff-secondary);
+    background: var(--clr-grey-10);
+    color: var(--clr-grey-1);
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+
+.header-btn{
+    display: none;
+}
+
+.swiper-pagination, .swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+
+.botoes__ancora{
+    display: none;
+}
+
+.card__descricao{
+    flex-direction: column;
+}
+
+.card{
+    width: 50%;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+}
+
